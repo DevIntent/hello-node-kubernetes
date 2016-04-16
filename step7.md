@@ -16,7 +16,7 @@ nano replicationController.json
 Paste the contents of [this gist](https://gist.github.com/Splaktar/47a76f2dc9e053073e6278bdb5dfec5c) into the file and save.
 
 ```sh
-kubectl create -f replicationController.json`
+kubectl create -f replicationController.json
 replicationcontroller "hello-node" created
 ```
 
