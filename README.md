@@ -3,6 +3,10 @@ Host your NodeJS app in a Docker container that is replicated in [Kubernetes](ht
 
 Estimated time to complete: 60 min
 
+This codelab is based on a [GCP.NEXT 2016](https://cloudplatformonline.com/NEXT2016-Extended.html)
+[codelab](https://codelabs.developers.google.com/codelabs/hello-kubernetes/index.html?index=..%2F..%2Fgcp-next#0) 
+by Google Developers. It fixes a number of issues with that codelab by adding support for the latest Kubernetes version (1.2.2).
+
 ## Introduction
 
 The goal of this codelab is for you to turn your code (a simple Hello World node.js app here) into a replicated
