@@ -1,4 +1,4 @@
-# Allow external traffic
+# 7. Allow external traffic
 
 Estimated time: 26 min remaining
 
