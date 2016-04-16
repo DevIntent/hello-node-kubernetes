@@ -6,7 +6,7 @@ Ok, you are now ready to create your Container Engine cluster. A cluster consist
 Google and a set of worker nodes. The worker nodes are Compute Engine virtual machines. Let’s create a cluster with 
 two [n1-standard-1](https://cloud.google.com/compute/docs/machine-types) nodes (this will take a few minutes to complete):
 ```sh
-$ gcloud container clusters create hello-world \
+$ gcloud container clusters create hello-node \
                 --num-nodes 2 \
                 --machine-type n1-standard-1
 Creating cluster hello-world...done.
