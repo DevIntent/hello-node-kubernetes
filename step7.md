@@ -13,7 +13,7 @@ To create the Replication Controller, the following needs to be done:
 nano replicationController.json
 ```
 
-Paste the contents of [this gist](https://gist.github.com/Splaktar/47a76f2dc9e053073e6278bdb5dfec5c) into the file and save.
+Paste the contents of [this gist](https://gist.github.com/Splaktar/47a76f2dc9e053073e6278bdb5dfec5c) into the file, replace the `PROJECT_ID`, and save.
 
 ```sh
 kubectl create -f replicationController.json
@@ -26,7 +26,7 @@ accessible from outside the kubernetes virtual network, you have to expose the p
 We can expose the pod with the `kubectl expose` command and the `--type="LoadBalancer"` flag 
 which creates an external IP to accept traffic:
 ```sh
-$ kubectl expose rc hello-node --type="LoadBalancer"
+$ kubectl expose deployment hello-node --type="LoadBalancer"
 ```
 The flag used in this command specifies that we’ll be using the load-balancer provided by the underlying infrastructure 
 (in this case the [Compute Engine load balancer](https://cloud.google.com/compute/docs/load-balancing/)) and 
