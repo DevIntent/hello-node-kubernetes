@@ -1,4 +1,4 @@
-# Create your Node.js application
+# 3. Create your Node.js application
 
 Estimated time: 53 min remaining
 
