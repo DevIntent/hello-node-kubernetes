@@ -1,4 +1,4 @@
-# Create your cluster
+# 5. Create your cluster
 
 Estimated time: 38 min remaining
 
