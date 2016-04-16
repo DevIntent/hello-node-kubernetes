@@ -22,3 +22,5 @@ from virtual machines to bare metal.
 For the purpose of this codelab, using a managed environment such as Google Container Engine (a Google-hosted version of 
 Kubernetes running on Compute Engine) will allow you to focus more on experiencing Kubernetes rather than setting up the 
 underlying infrastructure.
+
+#### [Go to next step](step2.md)
