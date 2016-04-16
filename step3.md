@@ -32,3 +32,6 @@ instance you just started on port 8080.
 Now, more importantly, let’s package this application in a Docker container.
 
 Before we continue, simply stop the running node server by pressing Ctrl-C in CloudShell.
+
+#### [Go to step 4](step4.md)
+#### [Go back to step 2](step2.md)
