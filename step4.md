@@ -1,4 +1,4 @@
-# Create a Docker container image
+# 4. Create a Docker container image
 
 Estimated time: 50 min remaining
 
