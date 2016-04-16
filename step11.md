@@ -12,7 +12,7 @@ hello-node-2142604176-x8   10.124.132.1   123.132.123.151   8080/TCP   1h
 ```
 Then we can delete the service, which also deletes your external load balancer:
 ```sh
-kubectl delete services hello-node-2142604176-x8
+$ kubectl delete services hello-node-2142604176-x8
 service "hello-node-2142604176-x8" deleted
 ```
 
