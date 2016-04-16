@@ -1,4 +1,4 @@
-# Setup and Requirements
+# 1. Setup and Requirements
 
 Estimated time: 58 min remaining
 
