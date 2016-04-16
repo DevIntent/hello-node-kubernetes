@@ -65,3 +65,6 @@ You can pick and choose different zones too. Learn more about zones in
 
 **Note**: If you run gcloud on your own machine, the config settings would be persisted across sessions.  
 But in Cloud Shell, you will need to set this for every new session or reconnection.
+
+#### [Go to step 3](step3.md)
+#### [Go back to step 1](README.md)
