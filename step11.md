@@ -22,7 +22,7 @@ $ kubectl delete rc hello-node
 ```
 Delete your cluster:
 ```sh
-$ gcloud container clusters delete hello-world
+$ gcloud container clusters delete hello-node
    Waiting for cluster deletion...done.
    name: operation-xxxxxxxxxxxxxxxx
    operationType: deleteCluster
