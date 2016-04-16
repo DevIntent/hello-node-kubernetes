@@ -26,7 +26,7 @@ accessible from outside the kubernetes virtual network, you have to expose the p
 We can expose the pod with the `kubectl expose` command and the `--type="LoadBalancer"` flag 
 which creates an external IP to accept traffic:
 ```sh
-$ kubectl expose deployment hello-node --type="LoadBalancer"
+$ kubectl expose rc hello-node --type="LoadBalancer"
 ```
 The flag used in this command specifies that we’ll be using the load-balancer provided by the underlying infrastructure 
 (in this case the [Compute Engine load balancer](https://cloud.google.com/compute/docs/load-balancing/)) and 
