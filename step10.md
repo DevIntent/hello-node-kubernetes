@@ -6,7 +6,7 @@ While logged into the cloud console:
 
 Get the admin password
 ```sh
-$ gcloud container clusters describe hello-world | egrep "password"
+$ gcloud container clusters describe hello-node | egrep "password"
     password: vUYwC5ATJMWa6goh
 ```
 
